@@ -25,4 +25,5 @@ RUN \
   apt-get autoremove -y && \
   apt-get clean all && \
   npm install webpack@1.9.7 && \
-  npm install karma-cli@0.1.0
+  npm install karma-cli@0.1.0 && \
+  npm install gulp-cli@0.3.0
