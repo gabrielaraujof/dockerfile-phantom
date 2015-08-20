@@ -15,7 +15,7 @@ ENV UV_THREADPOOL_SIZE=6
 RUN \
   apt-get update && \
   apt-get upgrade -y --force-yes && \
-  apt-get install -y --force-yes wget curl ca-certificates libfreetype6 libfontconfig bzip2 rsync && \
+  apt-get install -y --force-yes wget curl ca-certificates libfreetype6 libfontconfig bzip2 rsync ssh && \
   mkdir -p /srv/var && \
   wget -q --no-check-certificate -O /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
   tar -xjf /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -C /tmp && \
