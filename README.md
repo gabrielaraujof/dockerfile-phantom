@@ -11,7 +11,6 @@ Docker image based on [Nodesource's trusty:0.12.7](https://github.com/nodesource
 |karma-cli (via npm)          |0.1.0   |
 |gulp-cli (via npm)           |0.3.0   |
 |webpack (via npm)            |1.9.7   |
-|webpack-dev-server (via npm) |1.8.2   |
 
 ## Installation
 
