@@ -1,7 +1,7 @@
 # NolimitID docker images with nodesource's trusty,
-# nodejs v4.4.5, and phantomjs 1.9.8
+# nodejs v5.11.1, and phantomjs 1.9.8
 
-FROM nodesource/trusty:4.4.5
+FROM nodesource/trusty:5.11.1
 
 MAINTAINER maman <achmad@mahardi.me>
 
