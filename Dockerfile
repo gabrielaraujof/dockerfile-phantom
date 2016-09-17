@@ -1,12 +1,9 @@
-# NolimitID docker images with nodesource's trusty,
-# nodejs v4.4.5, and phantomjs 1.9.8
+# latest nodejs, and phantomjs 1.9.8
 
-FROM nodesource/trusty:4.4.5
+FROM node:latest
 
-MAINTAINER maman <achmad@mahardi.me>
+MAINTAINER gabrielaraujof <contact@gbiel.com>
 
-# Set ENV
-ENV NODE_ENV dev
 ENV PHANTOMJS_VERSION 1.9.8
 
 # Commands
