@@ -18,3 +18,6 @@ RUN \
   mv /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64/ /srv/var/phantomjs && \
   ln -s /srv/var/phantomjs/bin/phantomjs /usr/bin/phantomjs && \
   apt-get autoremove -y
+
+RUN \
+  npm -g install angular-cli
