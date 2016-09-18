@@ -1,6 +1,6 @@
 # latest nodejs, and chromium
 
-FROM node:latest
+FROM debian:jessie
 
 MAINTAINER gabrielaraujof <contact@gbiel.com>
 
@@ -12,9 +12,6 @@ RUN \
   chromium && \
   apt-get autoremove -y
 
-RUN \
-  npm -g install angular-cli
-  
 ENV DISPLAY :99
 ENV CHROME_BIN /usr/bin/chromium
 
